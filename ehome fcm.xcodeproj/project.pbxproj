@@ -17,6 +17,10 @@
 		0E3997502BA551AD004B15BA /* ehome_fcmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E39974F2BA551AD004B15BA /* ehome_fcmTests.m */; };
 		0E39975A2BA551AD004B15BA /* ehome_fcmUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3997592BA551AD004B15BA /* ehome_fcmUITests.m */; };
 		0E39975C2BA551AD004B15BA /* ehome_fcmUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E39975B2BA551AD004B15BA /* ehome_fcmUITestsLaunchTests.m */; };
+		0E39976A2BA55B85004B15BA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E3997692BA55B84004B15BA /* GoogleService-Info.plist */; };
+		7FC6A4DB7704FFBD0ED730B6 /* Pods_ehome_fcm_ehome_fcmUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F015856CB864D2181679F5F /* Pods_ehome_fcm_ehome_fcmUITests.framework */; };
+		B3D79BE0020BE4A7E95BB836 /* Pods_ehome_fcmTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B793EEA719FCB6FC12056AB /* Pods_ehome_fcmTests.framework */; };
+		ECDC403757513EF975816CF1 /* Pods_ehome_fcm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5358F33414B04DD8000B36B0 /* Pods_ehome_fcm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,17 @@
 		0E3997552BA551AD004B15BA /* ehome fcmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ehome fcmUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E3997592BA551AD004B15BA /* ehome_fcmUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ehome_fcmUITests.m; sourceTree = "<group>"; };
 		0E39975B2BA551AD004B15BA /* ehome_fcmUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ehome_fcmUITestsLaunchTests.m; sourceTree = "<group>"; };
+		0E3997682BA559C6004B15BA /* ehome fcm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ehome fcm.entitlements"; sourceTree = "<group>"; };
+		0E3997692BA55B84004B15BA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		249C1D52449A045DE2320E13 /* Pods-ehome fcm-ehome fcmUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ehome fcm-ehome fcmUITests.debug.xcconfig"; path = "Target Support Files/Pods-ehome fcm-ehome fcmUITests/Pods-ehome fcm-ehome fcmUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EC2AD0E5CC4C14D0455A78B /* Pods-ehome fcmTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ehome fcmTests.release.xcconfig"; path = "Target Support Files/Pods-ehome fcmTests/Pods-ehome fcmTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F015856CB864D2181679F5F /* Pods_ehome_fcm_ehome_fcmUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ehome_fcm_ehome_fcmUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5220D2F7901A011CB9D0190C /* Pods-ehome fcm-ehome fcmUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ehome fcm-ehome fcmUITests.release.xcconfig"; path = "Target Support Files/Pods-ehome fcm-ehome fcmUITests/Pods-ehome fcm-ehome fcmUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5358F33414B04DD8000B36B0 /* Pods_ehome_fcm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ehome_fcm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		537FBB6B09010BC55AD23D2B /* Pods-ehome fcm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ehome fcm.release.xcconfig"; path = "Target Support Files/Pods-ehome fcm/Pods-ehome fcm.release.xcconfig"; sourceTree = "<group>"; };
+		8B793EEA719FCB6FC12056AB /* Pods_ehome_fcmTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ehome_fcmTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		984877FEB092864DED4DBAF6 /* Pods-ehome fcmTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ehome fcmTests.debug.xcconfig"; path = "Target Support Files/Pods-ehome fcmTests/Pods-ehome fcmTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AAC73CBE61DEEAA0E9C8D349 /* Pods-ehome fcm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ehome fcm.debug.xcconfig"; path = "Target Support Files/Pods-ehome fcm/Pods-ehome fcm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECDC403757513EF975816CF1 /* Pods_ehome_fcm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D79BE0020BE4A7E95BB836 /* Pods_ehome_fcmTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FC6A4DB7704FFBD0ED730B6 /* Pods_ehome_fcm_ehome_fcmUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +106,8 @@
 				0E39974E2BA551AD004B15BA /* ehome fcmTests */,
 				0E3997582BA551AD004B15BA /* ehome fcmUITests */,
 				0E3997312BA551AC004B15BA /* Products */,
+				B00D22D6F66B27DF053B0859 /* Pods */,
+				2D95184B21BCE753A5E1099D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +124,7 @@
 		0E3997322BA551AC004B15BA /* ehome fcm */ = {
 			isa = PBXGroup;
 			children = (
+				0E3997682BA559C6004B15BA /* ehome fcm.entitlements */,
 				0E3997332BA551AC004B15BA /* AppDelegate.h */,
 				0E3997342BA551AC004B15BA /* AppDelegate.m */,
 				0E3997362BA551AC004B15BA /* SceneDelegate.h */,
@@ -111,6 +132,7 @@
 				0E3997392BA551AC004B15BA /* ViewController.h */,
 				0E39973A2BA551AC004B15BA /* ViewController.m */,
 				0E39973C2BA551AC004B15BA /* Main.storyboard */,
+				0E3997692BA55B84004B15BA /* GoogleService-Info.plist */,
 				0E39973F2BA551AD004B15BA /* Assets.xcassets */,
 				0E3997412BA551AD004B15BA /* LaunchScreen.storyboard */,
 				0E3997442BA551AD004B15BA /* Info.plist */,
@@ -136,6 +158,29 @@
 			path = "ehome fcmUITests";
 			sourceTree = "<group>";
 		};
+		2D95184B21BCE753A5E1099D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5358F33414B04DD8000B36B0 /* Pods_ehome_fcm.framework */,
+				3F015856CB864D2181679F5F /* Pods_ehome_fcm_ehome_fcmUITests.framework */,
+				8B793EEA719FCB6FC12056AB /* Pods_ehome_fcmTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B00D22D6F66B27DF053B0859 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AAC73CBE61DEEAA0E9C8D349 /* Pods-ehome fcm.debug.xcconfig */,
+				537FBB6B09010BC55AD23D2B /* Pods-ehome fcm.release.xcconfig */,
+				249C1D52449A045DE2320E13 /* Pods-ehome fcm-ehome fcmUITests.debug.xcconfig */,
+				5220D2F7901A011CB9D0190C /* Pods-ehome fcm-ehome fcmUITests.release.xcconfig */,
+				984877FEB092864DED4DBAF6 /* Pods-ehome fcmTests.debug.xcconfig */,
+				3EC2AD0E5CC4C14D0455A78B /* Pods-ehome fcmTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E39975F2BA551AD004B15BA /* Build configuration list for PBXNativeTarget "ehome fcm" */;
 			buildPhases = (
+				A86E08A1BD2B4CB6D3A24A56 /* [CP] Check Pods Manifest.lock */,
 				0E39972C2BA551AC004B15BA /* Sources */,
 				0E39972D2BA551AC004B15BA /* Frameworks */,
 				0E39972E2BA551AC004B15BA /* Resources */,
+				5BB61DFB3A3131BC5807A9DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E3997622BA551AD004B15BA /* Build configuration list for PBXNativeTarget "ehome fcmTests" */;
 			buildPhases = (
+				43B65EAC16C9B8C9617B746D /* [CP] Check Pods Manifest.lock */,
 				0E3997472BA551AD004B15BA /* Sources */,
 				0E3997482BA551AD004B15BA /* Frameworks */,
 				0E3997492BA551AD004B15BA /* Resources */,
@@ -178,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E3997652BA551AD004B15BA /* Build configuration list for PBXNativeTarget "ehome fcmUITests" */;
 			buildPhases = (
+				94844848979CA00B1A052CCF /* [CP] Check Pods Manifest.lock */,
 				0E3997512BA551AD004B15BA /* Sources */,
 				0E3997522BA551AD004B15BA /* Frameworks */,
 				0E3997532BA551AD004B15BA /* Resources */,
+				49B3C121D8591310D332F529 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -240,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E3997402BA551AD004B15BA /* Assets.xcassets in Resources */,
+				0E39976A2BA55B85004B15BA /* GoogleService-Info.plist in Resources */,
 				0E3997432BA551AD004B15BA /* Base in Resources */,
 				0E39973E2BA551AC004B15BA /* Base in Resources */,
 			);
@@ -260,6 +311,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43B65EAC16C9B8C9617B746D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ehome fcmTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49B3C121D8591310D332F529 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ehome fcm-ehome fcmUITests/Pods-ehome fcm-ehome fcmUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ehome fcm-ehome fcmUITests/Pods-ehome fcm-ehome fcmUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ehome fcm-ehome fcmUITests/Pods-ehome fcm-ehome fcmUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BB61DFB3A3131BC5807A9DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ehome fcm/Pods-ehome fcm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ehome fcm/Pods-ehome fcm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ehome fcm/Pods-ehome fcm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94844848979CA00B1A052CCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ehome fcm-ehome fcmUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A86E08A1BD2B4CB6D3A24A56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ehome fcm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E39972C2BA551AC004B15BA /* Sources */ = {
@@ -443,12 +597,15 @@
 		};
 		0E3997602BA551AD004B15BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAC73CBE61DEEAA0E9C8D349 /* Pods-ehome fcm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ehome fcm/ehome fcm.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2TWUJ4R2YP;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ehome fcm/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -470,12 +627,15 @@
 		};
 		0E3997612BA551AD004B15BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 537FBB6B09010BC55AD23D2B /* Pods-ehome fcm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ehome fcm/ehome fcm.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2TWUJ4R2YP;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "ehome fcm/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -497,6 +657,7 @@
 		};
 		0E3997632BA551AD004B15BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 984877FEB092864DED4DBAF6 /* Pods-ehome fcmTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -515,6 +676,7 @@
 		};
 		0E3997642BA551AD004B15BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC2AD0E5CC4C14D0455A78B /* Pods-ehome fcmTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -533,6 +695,7 @@
 		};
 		0E3997662BA551AD004B15BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 249C1D52449A045DE2320E13 /* Pods-ehome fcm-ehome fcmUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -549,6 +712,7 @@
 		};
 		0E3997672BA551AD004B15BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5220D2F7901A011CB9D0190C /* Pods-ehome fcm-ehome fcmUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

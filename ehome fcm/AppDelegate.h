@@ -6,8 +6,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@import FirebaseCore;
+@import FirebaseMessaging;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@protocol FIRMessagingDelegate;
+
+@interface AppDelegate : UIResponder<UIApplicationDelegate, FIRMessagingDelegate>
 
 
 @end
